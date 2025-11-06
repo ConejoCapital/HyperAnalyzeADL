@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (raw)
+s3_raw_data/*.lz4
+processed_data/*.csv
+
+# Keep only final results
+!results/positions_FINAL.csv
+
+# Temp files
+*.tmp
+*.log
+
